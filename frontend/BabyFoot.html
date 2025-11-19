@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BabyFoot.css">
+    <title>Baby Foot Manager</title>
+</head>
+
+<body>
+    <div class="section1">
+        <input type="text" name="Nom" id="nominput" class="input" placeholder="Nouvelle Partie">
+        <button class="button" onclick="CreerUnePartie()">Ajouter</button>
+    </div>
+
+    <div class="section2">
+        <table class="table" id="table">
+            <thead class="thead" id="thead">
+            <tr class="tr">
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Status</th>
+                <th>Date de Creation</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody class="tbody" id="tbody"></tbody>
+        </table>
+        <h3 class="h3">Les parties en cours :<span id="compteur"></span></h3>
+    </div>
+    
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="BabyFoot.js"></script>
+</body>
+
+</html>

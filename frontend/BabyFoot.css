@@ -1,0 +1,26 @@
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.input {
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    border-color: gray;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(16, 16, 250);
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
